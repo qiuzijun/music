@@ -53,6 +53,7 @@ img {
 #header-in .header-top .header-list>li:first-child {
     background-color: #31c27c;
     color: white;
+
 }
 
 #header-in .header-top .header-list>li:first-child>a {
@@ -75,14 +76,26 @@ img {
     height: 40px;
 }
 
-.header-top .header-top-input {
+.header-top .header-top-input>input {
+    width: 220px;
+    height: 38px;
+}
+
+.header-top .header-top-input>input {
     width: 220px;
     height: 38px;
     border: 1px solid #c9c9c9;
     border-radius: 5px;
-    padding: 0 33px 0 11px;
+    padding: 0 10px 0 11px;
     position: absolute;
     top: 30px;
+}
+
+.header-top .header-top-input>img {
+    position: relative;
+    top: -8px;
+    right: -210px;
+    cursor: pointer;
 }
 
 .openingRecharge .opening {
@@ -101,6 +114,7 @@ img {
 }
 
 .openingRecharge .opening>ul {
+
     display: none;
 }
 
@@ -175,6 +189,7 @@ img {
 #header-in .header-bto ul>li {
     float: left;
     margin-left: 50px;
+    cursor: pointer;
 }
 
 #banner {
