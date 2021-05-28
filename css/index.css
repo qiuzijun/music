@@ -212,7 +212,10 @@ img {
 
 #banner .banner-run>.banner-img>li {
     float: left;
+}
 
+#banner .banner-run>.banner-img>li>img {
+    position: relative;
 }
 
 #banner .banner-run>.banner-dian {
@@ -230,13 +233,21 @@ img {
     border-radius: 50%;
 }
 
+/* #banner .banner-run>.banner-dian>li:first-child {
+    background-color: white;
+
+} */
+
 #banner>span {
     position: relative;
     top: -230px;
-    left: 20px;
+    left: 40px;
+    display: none;
+    cursor: pointer;
 }
 
 #banner>span+span {
     float: right;
-    margin-right: 40px;
+    margin-top: -50px;
+    margin-right: 80px;
 }
