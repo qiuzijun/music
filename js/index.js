@@ -58,7 +58,7 @@ $(function () {
         $('#banner span')[1].style.display = 'none'
         setin = setInterval(change, 3000);
     })
-    $('#banner > .left').click(function () {
+    $('#banner >.banner-run> .left').click(function () {
         index = index + 1;
         if (index >= 5) {
             index = 0;
@@ -68,7 +68,7 @@ $(function () {
             left: -index * 1080
         })
     })
-    $('#banner > .right').click(function () {
+    $('#banner >.banner-run> .right').click(function () {
         index = index - 1;
         if (index < 0) {
             index = 4;
@@ -84,5 +84,30 @@ $(function () {
         $('.banner-run>.banner-img>li>img').animate({
             left: -index * 1080
         })
+    })
+    $('.inner>ul>li>span').mouseover(function () {
+        $(this).css('color', '#31c27c')
+    }).mouseout(function () {
+        $(this).css('color', '')
+    })
+    $('.inner>ul>.innerLeft>ul>li').mouseover(function () {
+        $(this).css('color', '#31c27c')
+    }).mouseout(function () {
+        $(this).css('color', '')
+    })
+    $('.inner>ul>.innerCenter>ul>li').mouseover(function () {
+        $(this).css('color', '#31c27c')
+    }).mouseout(function () {
+        $(this).css('color', '')
+    })
+    $('.inner>ul>.innerRight>ul>li>ul>li').mouseover(function () {
+        $(this).css('color', '#31c27c')
+    }).mouseout(function () {
+        $(this).css('color', '')
+    })
+    $('.inner p').mouseover(function () {
+        $(this).css('color', '#31c27c')
+    }).mouseout(function () {
+        $(this).css('color', '')
     })
 })

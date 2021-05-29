@@ -238,16 +238,428 @@ img {
 
 } */
 
-#banner>span {
-    position: relative;
-    top: -230px;
-    left: 40px;
-    display: none;
+#banner>.banner-run>.left,
+.right {
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+
+#banner>.banner-run>.right {
+    position: absolute;
+    left: 1040px;
+}
+
+#rankingList {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+#rankingList>.rankList {
+    width: 1205px;
+    height: 567px;
+    margin: 50px auto;
+}
+
+#rankingList>.rankList>h1 {
+    text-align: center;
+}
+
+#rankingList>.rankList>h1+span {
+    float: right;
+    font-size: 13px;
+    margin-top: -20px;
+    cursor: pointer;
+    font-family: "微软雅黑";
+}
+
+.rankList>.rankList_ul {
+    margin-top: 25px;
+
+}
+
+.rankList>.rankList_ul>li {
+    width: 225px;
+    height: 500px;
+    float: left;
+    margin-left: 20px;
+    color: white;
+}
+
+.rankList>.rankList_ul>.rankList_1 {
+    margin-left: 0px;
+    background-image: url('../img/rank01.png');
+    background-size: 100%;
+}
+
+.rankList>.rankList_ul>.rankList_1:hover {
+    animation: rankList 1s;
+}
+
+@keyframes rankList {
+    0% {
+        background-size: 100%;
+    }
+
+    50% {
+        background-size: 110%;
+    }
+
+    100% {
+        background-size: 100%;
+    }
+}
+
+.rankList>.rankList_ul>.rankList_1>p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+.rankList>.rankList_ul>.rankList_1>p+h3 {
+    text-align: center;
+}
+
+.rankList>.rankList_ul>.rankList_1>h3+img {
+    margin-left: 98px;
+    margin-top: 30px;
+}
+
+.rankList>.rankList_ul>.rankList_1>p+h3 {
+    text-align: center;
+}
+
+.rankList>.rankList_ul>.rankList_1>ul {
+    /* text-align: center; */
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.rankList>.rankList_ul>.rankList_1>ul>li {
+    line-height: 50px;
+    font-size: 14px;
     cursor: pointer;
 }
 
-#banner>span+span {
-    float: right;
-    margin-top: -50px;
-    margin-right: 80px;
+.rankList>.rankList_ul>.rankList_2 {
+    background-image: url('../img/rank02.png');
+}
+
+.rankList>.rankList_ul>.rankList_2:hover {
+    animation: rankList 1s;
+}
+
+@keyframes rankList {
+    0% {
+        background-size: 100%;
+    }
+
+    50% {
+        background-size: 110%;
+    }
+
+    100% {
+        background-size: 100%;
+    }
+}
+
+.rankList>.rankList_ul>.rankList_2>p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+.rankList>.rankList_ul>.rankList_2>p+h3 {
+    text-align: center;
+}
+
+.rankList>.rankList_ul>.rankList_2>h3+img {
+    margin-left: 98px;
+    margin-top: 30px;
+}
+
+.rankList>.rankList_ul>.rankList_2>p+h3 {
+    text-align: center;
+}
+
+.rankList>.rankList_ul>.rankList_2>ul {
+    /* text-align: center; */
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.rankList>.rankList_ul>.rankList_2>ul>li {
+    line-height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.rankList>.rankList_ul>.rankList_3 {
+    background-image: url('../img/rank03.png');
+}
+
+.rankList>.rankList_ul>.rankList_3:hover {
+    animation: rankList 1s;
+}
+
+@keyframes rankList {
+    0% {
+        background-size: 100%;
+    }
+
+    50% {
+        background-size: 110%;
+    }
+
+    100% {
+        background-size: 100%;
+    }
+}
+
+.rankList>.rankList_ul>.rankList_3>p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+.rankList>.rankList_ul>.rankList_3>p+h3 {
+    text-align: center;
+}
+
+.rankList>.rankList_ul>.rankList_3>h3+img {
+    margin-left: 98px;
+    margin-top: 30px;
+}
+
+.rankList>.rankList_ul>.rankList_3>p+h3 {
+    text-align: center;
+}
+
+.rankList>.rankList_ul>.rankList_3>ul {
+    /* text-align: center; */
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.rankList>.rankList_ul>.rankList_3>ul>li {
+    line-height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.rankList>.rankList_ul>.rankList_4 {
+    background-image: url('../img/rank04.png');
+}
+
+.rankList>.rankList_ul>.rankList_4:hover {
+    animation: rankList 1s;
+}
+
+@keyframes rankList {
+    0% {
+        background-size: 100%;
+    }
+
+    50% {
+        background-size: 110%;
+    }
+
+    100% {
+        background-size: 100%;
+    }
+}
+
+.rankList>.rankList_ul>.rankList_4>p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+.rankList>.rankList_ul>.rankList_4>p+h3 {
+    text-align: center;
+}
+
+.rankList>.rankList_ul>.rankList_4>h3+img {
+    margin-left: 98px;
+    margin-top: 30px;
+}
+
+.rankList>.rankList_ul>.rankList_4>p+h3 {
+    text-align: center;
+}
+
+.rankList>.rankList_ul>.rankList_4>ul {
+    /* text-align: center; */
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.rankList>.rankList_ul>.rankList_4>ul>li {
+    line-height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.rankList>.rankList_ul>.rankList_5 {
+    background-image: url('../img/rank05.png');
+}
+
+.rankList>.rankList_ul>.rankList_5:hover {
+    animation: rankList 1s;
+}
+
+@keyframes rankList {
+    0% {
+        background-size: 100%;
+    }
+
+    50% {
+        background-size: 110%;
+    }
+
+    100% {
+        background-size: 100%;
+    }
+}
+
+.rankList>.rankList_ul>.rankList_5>p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+.rankList>.rankList_ul>.rankList_5>p+h3 {
+    text-align: center;
+}
+
+.rankList>.rankList_ul>.rankList_5>h3+img {
+    margin-left: 98px;
+    margin-top: 30px;
+}
+
+.rankList>.rankList_ul>.rankList_5>p+h3 {
+    text-align: center;
+}
+
+.rankList>.rankList_ul>.rankList_5>ul {
+    /* text-align: center; */
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.rankList>.rankList_ul>.rankList_5>ul>li {
+    line-height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#footer {
+    width: 100%;
+    height: 645px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#footer>.inner {
+    width: 1200px;
+    height: 530px;
+    margin: 83px auto;
+    color: #999;
+
+}
+
+.inner>ul>li {
+    width: 353px;
+    height: 170px;
+    float: left;
+    margin-left: 96px;
+}
+
+.inner>ul>li:first-child {
+
+    margin-left: 0px;
+}
+
+.inner>ul>.innerLeft>ul {
+    margin-top: 30px;
+}
+
+.inner>ul>.innerLeft>ul>li {
+    float: left;
+    margin-left: 30px;
+}
+
+.inner>ul>.innerLeft>ul>li:first-child {
+    margin-left: 0px;
+}
+
+.inner>ul>.innerCenter>ul~span {
+    line-height: 10px;
+}
+
+.inner>ul>.innerCenter>ul {
+    margin-top: 30px;
+}
+
+.inner>ul>.innerCenter>ul>li {
+    float: left;
+    margin-left: 20px;
+}
+
+.inner>ul>.innerCenter>ul>li:first-child {
+    margin-left: 0px;
+}
+
+.inner>ul>.innerCenter>ul>li {
+    float: left;
+}
+
+.inner>ul>.innerRight {
+    position: relative;
+    left: 780px;
+    top: -170px;
+}
+
+.inner>ul>.innerRight>ul>li {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.inner>ul>.innerRight>ul>li>ul>li {
+    line-height: 25px;
+}
+
+.inner>ul>.innerRight>ul>li:first-child {
+    margin-left: 0px;
+}
+
+.inner>.innerbtnLeft {
+    position: relative;
+    top: 250px;
+    right: 800px;
+    line-height: 50px;
+}
+
+.inner>.innerbtnCenter {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 450px;
+    top: -80px;
+    line-height: 50px;
+}
+
+.inner>.footerCenter {
+    text-align: center;
+    position: relative;
+    top: 280px;
+    right: 200px;
+    font-size: 12px;
 }
